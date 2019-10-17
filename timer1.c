@@ -9,10 +9,7 @@
 
 //extern volatile uint8_t second;
 volatile uint8_t second;
-ISR(TIMER1_COMPA_vect)
-{
-	second++;
-}
+
 
 
 void timer1_ctc_init(uint16_t compare)
